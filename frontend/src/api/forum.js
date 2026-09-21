@@ -1,4 +1,4 @@
-const BASE = '/api';
+const BASE = `${import.meta.env.BACKEND_URL || 'http://localhost:4000'}/api`;
 
 async function handle(res) {
   if (!res.ok) {
