@@ -23,7 +23,7 @@ CREATE INDEX IF NOT EXISTS idx_comments_post_id ON comments(post_id);
 CREATE INDEX IF NOT EXISTS idx_posts_created_at ON posts(created_at);
 `;
 
-async function migrate() {
+export async function migrate() {
   try {
     await pool.query(SQL);
     console.log('Migration complete: posts and comments tables ready.');
@@ -35,4 +35,3 @@ async function migrate() {
   }
 }
 
-migrate();
