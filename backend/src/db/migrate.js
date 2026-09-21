@@ -30,8 +30,5 @@ export async function migrate() {
   } catch (err) {
     console.error('Migration failed:', err);
     process.exitCode = 1;
-  } finally {
-    await pool.end();
   }
 }
-
