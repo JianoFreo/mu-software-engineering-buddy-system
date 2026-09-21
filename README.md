@@ -2,7 +2,8 @@
 Jiano Freo Magtangob - Technological University of the Philippines
 
 Katrina Reigne Dela Cruz - De La Salle University 
-— Anonymous Forum
+
+# Manulife Anonymous Forum
 
 A full-stack anonymous forum. Plain JavaScript throughout (no TypeScript).
 
