@@ -1,5 +1,5 @@
 # Manulife Software Engineering Buddy System 
-### Live site https://manulife-unsigned.onrender.com
+### Live site https://jianofreo.github.io/mu-software-engineering-buddy-system/
 # Cyberkada buddy
 Jiano Freo Magtangob - Technological University of the Philippines
 
